@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verde Selvagem | Manutenção de Plantas e Limpeza de Jardins</title>
+    <meta name="description" content="Empresa especializada em manutenção de plantas e limpeza de jardins. Serviços profissionais para residências e empresas.">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/darkmode.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-mode">
+    <div class="theme-toggle">
+        <button id="theme-switch" aria-label="Alternar modo escuro/claro">
+            <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+        </button>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>Verde Selvagem</h1>
+                </div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#dicas">Dicas de Cuidados</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Transformamos o seu espaço com o <span class="highlight">poder da natureza</span></h2>
+                    <p>Manutenção especializada de plantas e limpeza de jardins para ambientes mais vivos e saudáveis.</p>
+                    <div class="cta-buttons">
+                        <a href="#contato" class="btn btn-primary">Fale Conosco</a>
+                        <a href="#servicos" class="btn btn-secondary">Ver Serviços</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.pexels.com/photos/7676648/pexels-photo-7676648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Plantas saudáveis e bem cuidadas" class="main-img">
+                    <div class="floating-leaves">
+                        <img src="src/img/leaf-1.svg" alt="" class="leaf leaf-1">
+                        <img src="src/img/leaf-2.svg" alt="" class="leaf leaf-2">
+                        <img src="src/img/leaf-3.svg" alt="" class="leaf leaf-3">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="sobre" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Sobre a <span class="highlight">Verde Selvagem</span></h2>
+                    <p>Conheça nossa história e missão</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://images.pexels.com/photos/5503256/pexels-photo-5503256.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Equipe Verde Selvagem cuidando de plantas">
+                    </div>
+                    <div class="about-text">
+                        <h3>Nossa História</h3>
+                        <p>A Verde Selvagem nasceu da paixão pelo verde e da vontade de levar mais natureza para os ambientes urbanos. Desde 2018, trabalhamos para transformar espaços com o poder das plantas, criando ambientes mais vivos e saudáveis.</p>
+                        
+                        <h3>Nossa Missão</h3>
+                        <p>Oferecer serviços de manutenção de plantas e limpeza de jardins com excelência, comprometimento e respeito ao meio ambiente, proporcionando bem-estar através do verde.</p>
+                        
+                        <h3>Nossa Equipe</h3>
+                        <p>Contamos com profissionais especializados e apaixonados por plantas, sempre prontos para cuidar do seu espaço verde com dedicação e conhecimento técnico.</p>
+                        
+                        <div class="stats-container">
+                            <div class="stat-item">
+                                <span class="stat-number" data-target="5">0</span>
+                                <span class="stat-text">Anos de experiência</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-target="200">0</span>
+                                <span class="stat-text">Clientes satisfeitos</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-target="350">0</span>
+                                <span class="stat-text">Projetos realizados</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="servicos" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nossos <span class="highlight">Serviços</span></h2>
+                    <p>Soluções completas para seus espaços verdes</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="src/img/icon-maintenance.svg" alt="Ícone de manutenção">
+                        </div>
+                        <h3>Manutenção de Plantas</h3>
+                        <p>Cuidados essenciais para manter suas plantas saudáveis e bonitas, incluindo rega, adubação, poda e tratamento contra pragas.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="src/img/icon-cleaning.svg" alt="Ícone de limpeza">
+                        </div>
+                        <h3>Limpeza de Jardins</h3>
+                        <p>Serviço completo de limpeza e organização de jardins, incluindo remoção de ervas daninhas, folhas secas e resíduos.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="src/img/icon-design.svg" alt="Ícone de design">
+                        </div>
+                        <h3>Paisagismo</h3>
+                        <p>Criação e implementação de projetos de paisagismo para transformar seu espaço com harmonia e beleza.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="src/img/icon-consultation.svg" alt="Ícone de consultoria">
+                        </div>
+                        <h3>Consultoria</h3>
+                        <p>Orientação especializada para escolha de plantas adequadas ao seu ambiente e necessidades específicas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="galeria" class="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nossa <span class="highlight">Galeria</span></h2>
+                    <p>Conheça alguns dos nossos trabalhos</p>
+                </div>
+                <div class="gallery-controls">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="maintenance">Manutenção</button>
+                    <button class="filter-btn" data-filter="gardens">Jardins</button>
+                    <button class="filter-btn" data-filter="landscaping">Paisagismo</button>
+                </div>
+                <div class="gallery-grid">
+                    <!-- Gallery items will be populated with JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="depoimentos" class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>O que nossos <span class="highlight">Clientes</span> dizem</h2>
+                    <p>Depoimentos de quem confia em nosso trabalho</p>
+                </div>
+                <div class="testimonials-slider">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote">"</div>
+                            <p>Ótimo serviço! A equipe da Verde Selvagem transformou meu jardim. Eles são pontuais, atenciosos e muito profissionais. Recomendo a todos!</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.pexels.com/photos/1542085/pexels-photo-1542085.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Foto do cliente">
+                                <div class="author-info">
+                                    <h4>Mariana Silva</h4>
+                                    <p>Moema, São Paulo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote">"</div>
+                            <p>Contratei o serviço de manutenção mensal e foi a melhor decisão! Minhas plantas estão lindas e saudáveis, e o ambiente ficou muito mais aconchegante.</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Foto do cliente">
+                                <div class="author-info">
+                                    <h4>Ricardo Oliveira</h4>
+                                    <p>Jardins, São Paulo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote">"</div>
+                            <p>Profissionais extremamente capacitados. Resolveram problemas que outras empresas não conseguiram identificar. Minhas plantas nunca estiveram tão bonitas!</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.pexels.com/photos/773371/pexels-photo-773371.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Foto do cliente">
+                                <div class="author-info">
+                                    <h4>Fernanda Costa</h4>
+                                    <p>Brooklin, São Paulo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="prev-btn" aria-label="Depoimento anterior">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M15 18l-6-6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="testimonial-dots"></div>
+                    <button class="next-btn" aria-label="Próximo depoimento">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 18l6-6-6-6"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Plant Care Tips Section -->
+        <section id="dicas" class="plant-tips">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Dicas de <span class="highlight">Cuidados</span></h2>
+                    <p>Aprenda a cuidar melhor das suas plantas</p>
+                </div>
+                <div class="tips-grid">
+                    <div class="tip-card">
+                        <div class="tip-image">
+                            <img src="https://images.pexels.com/photos/7728389/pexels-photo-7728389.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Rega de plantas">
+                        </div>
+                        <div class="tip-content">
+                            <h3>Rega Correta</h3>
+                            <p>Saiba como e quando regar suas plantas para mantê-las saudáveis sem excessos ou escassez de água.</p>
+                            <a href="#" class="read-more" data-tip="watering">Leia mais</a>
+                        </div>
+                    </div>
+                    <div class="tip-card">
+                        <div class="tip-image">
+                            <img src="https://images.pexels.com/photos/5699665/pexels-photo-5699665.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Iluminação para plantas">
+                        </div>
+                        <div class="tip-content">
+                            <h3>Iluminação Ideal</h3>
+                            <p>Descubra qual a iluminação adequada para diferentes tipos de plantas e como posicioná-las corretamente.</p>
+                            <a href="#" class="read-more" data-tip="lighting">Leia mais</a>
+                        </div>
+                    </div>
+                    <div class="tip-card">
+                        <div class="tip-image">
+                            <img src="https://images.pexels.com/photos/2220683/pexels-photo-2220683.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Solo para plantas">
+                        </div>
+                        <div class="tip-content">
+                            <h3>Solo e Nutrientes</h3>
+                            <p>Conheça os diferentes tipos de solo e como fornecer os nutrientes necessários para suas plantas.</p>
+                            <a href="#" class="read-more" data-tip="soil">Leia mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tip-modal" id="tip-modal">
+                    <div class="modal-content">
+                        <button class="close-modal">&times;</button>
+                        <div class="modal-body">
+                            <!-- Content will be dynamically loaded -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contato" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Entre em <span class="highlight">Contato</span></h2>
+                    <p>Estamos prontos para atender você</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Nome</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Serviço de Interesse</label>
+                                <select id="service" name="service">
+                                    <option value="">Selecione um serviço</option>
+                                    <option value="maintenance">Manutenção de Plantas</option>
+                                    <option value="cleaning">Limpeza de Jardins</option>
+                                    <option value="landscaping">Paisagismo</option>
+                                    <option value="consultation">Consultoria</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensagem</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Informações de Contato</h3>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <h4>Telefone</h4>
+                                <p>(11) 95123-4567</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <h4>Email</h4>
+                                <p>contato@verdeselvagem.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <h4>Endereço</h4>
+                                <p>São Paulo, SP</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" aria-label="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a>
+                            <a href="#" aria-label="Facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a href="#" aria-label="WhatsApp">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Plant Assistant -->
+        <div class="plant-assistant" id="plantAssistant">
+            <div class="assistant-avatar">
+                <img src="https://images.pexels.com/photos/6208087/pexels-photo-6208087.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Assistente Verde Selvagem">
+            </div>
+            <div class="assistant-bubble hidden">
+                <p>Olá! Sou o Verdinho, seu assistente de plantas. Como posso ajudar você hoje?</p>
+                <div class="assistant-options">
+                    <button class="option-btn" data-option="services">Conhecer serviços</button>
+                    <button class="option-btn" data-option="tips">Dicas de plantas</button>
+                    <button class="option-btn" data-option="contact">Agendar visita</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Verde Selvagem</h2>
+                    <p>Transformando espaços com o poder da natureza desde 2018.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#dicas">Dicas</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Nossos Serviços</h3>
+                    <ul>
+                        <li>Manutenção de Plantas</li>
+                        <li>Limpeza de Jardins</li>
+                        <li>Paisagismo</li>
+                        <li>Consultoria</li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Inscreva-se para receber dicas e novidades sobre plantas.</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Seu email" required>
+                        <button type="submit" class="btn btn-primary">Inscrever</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Verde Selvagem. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/js/main.js"></script>
+</body>
+</html> 
