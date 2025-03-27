@@ -78,15 +78,15 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 1,
             category: 'maintenance',
             image: 'https://images.pexels.com/photos/7728082/pexels-photo-7728082.jpeg?auto=compress&cs=tinysrgb&w=800',
-            title: 'Manutenção de Plantas Internas',
-            description: 'Cuidados especializados para suas plantas de interior'
+            title: 'Manutenção de Plantas Interiores',
+            description: 'Cuidados especializados para as suas plantas de interior'
         },
         {
             id: 2,
             category: 'gardens',
             image: 'https://images.pexels.com/photos/6231674/pexels-photo-6231674.jpeg?auto=compress&cs=tinysrgb&w=800',
             title: 'Limpeza de Jardim Residencial',
-            description: 'Transformação completa para seu jardim'
+            description: 'Transformação completa para o seu jardim'
         },
         {
             id: 3,
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 4,
             category: 'maintenance',
-            image: 'https://images.pexels.com/photos/8797337/pexels-photo-8797337.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: 'https://images.pexels.com/photos/4505161/pexels-photo-4505161.jpeg?auto=compress&cs=tinysrgb&w=800',
             title: 'Tratamento de Plantas',
             description: 'Cuidado especial para plantas com problemas'
         },
@@ -106,8 +106,8 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 5,
             category: 'gardens',
             image: 'https://images.pexels.com/photos/5528759/pexels-photo-5528759.jpeg?auto=compress&cs=tinysrgb&w=800',
-            title: 'Reforma de Jardim',
-            description: 'Revitalização completa de áreas externas'
+            title: 'Renovação de Jardim',
+            description: 'Revitalização completa de áreas exteriores'
         },
         {
             id: 6,
@@ -263,17 +263,17 @@ document.addEventListener('DOMContentLoaded', function() {
         watering: {
             title: 'Dicas de Rega',
             content: `
-                <h3>Como Regar suas Plantas Corretamente</h3>
-                <p>A rega é um dos aspectos mais importantes no cuidado com as plantas. Aqui estão algumas dicas essenciais:</p>
+                <h3>Como Regar as Suas Plantas Corretamente</h3>
+                <p>A rega é um dos aspetos mais importantes no cuidado com as plantas. Aqui estão algumas dicas essenciais:</p>
                 
                 <h4>1. Conheça as necessidades da sua planta</h4>
-                <p>Cada espécie tem requisitos específicos de água. Plantas suculentas e cactos precisam de menos água, enquanto plantas tropicais geralmente necessitam de mais umidade.</p>
+                <p>Cada espécie tem requisitos específicos de água. Plantas suculentas e cactos precisam de menos água, enquanto plantas tropicais geralmente necessitam de mais humidade.</p>
                 
-                <h4>2. Verifique a umidade do solo</h4>
-                <p>Antes de regar, coloque o dedo cerca de 2-3 cm no solo. Se estiver seco nessa profundidade, é hora de regar. Se ainda estiver úmido, espere mais um pouco.</p>
+                <h4>2. Verifique a humidade do solo</h4>
+                <p>Antes de regar, coloque o dedo cerca de 2-3 cm no solo. Se estiver seco nessa profundidade, é hora de regar. Se ainda estiver húmido, espere mais um pouco.</p>
                 
                 <h4>3. Qualidade da água</h4>
-                <p>Utilize água em temperatura ambiente. Algumas plantas são sensíveis ao cloro, então deixar a água descansar por 24 horas antes de usar pode ser benéfico.</p>
+                <p>Utilize água à temperatura ambiente. Algumas plantas são sensíveis ao cloro, então deixar a água repousar por 24 horas antes de usar pode ser benéfico.</p>
                 
                 <h4>4. Técnica de rega</h4>
                 <p>Regue lentamente até que a água comece a sair pelos furos de drenagem. Isso garante que toda a raiz receba água adequadamente.</p>
@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <h4>6. Sinais de rega excessiva</h4>
                 <ul>
                     <li>Folhas amareladas e murchas</li>
-                    <li>Odor de mofo no solo</li>
+                    <li>Odor a bolor no solo</li>
                     <li>Aparecimento de fungos</li>
                     <li>Raízes escuras e moles</li>
                 </ul>
@@ -301,12 +301,12 @@ document.addEventListener('DOMContentLoaded', function() {
         lighting: {
             title: 'Iluminação Ideal',
             content: `
-                <h3>Iluminação Adequada para suas Plantas</h3>
+                <h3>Iluminação Adequada para as suas Plantas</h3>
                 <p>A luz é essencial para a fotossíntese e desenvolvimento saudável das plantas. Aqui está um guia de iluminação:</p>
                 
                 <h4>1. Tipos de exposição à luz</h4>
                 <ul>
-                    <li><strong>Luz direta:</strong> Raios solares atingindo diretamente a planta</li>
+                    <li><strong>Luz direta:</strong> Raios solares a atingir diretamente a planta</li>
                     <li><strong>Luz indireta brilhante:</strong> Próximo a janelas mas sem receber raios solares diretos</li>
                     <li><strong>Luz indireta média:</strong> Ambiente iluminado naturalmente mas distante de janelas</li>
                     <li><strong>Sombra parcial:</strong> Áreas com pouca incidência de luz natural</li>
@@ -315,14 +315,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 <h4>2. Necessidades por tipo de planta</h4>
                 <p><strong>Luz direta:</strong> Cactos, suculentas, hibiscos e maioria das plantas floríferas</p>
                 <p><strong>Luz indireta brilhante:</strong> Monstera, jiboia, palmeiras e maioria das plantas de folhagem</p>
-                <p><strong>Luz indireta média:</strong> Samambaias, aglaonemas e plantas de baixa luminosidade</p>
-                <p><strong>Sombra parcial:</strong> Zamioculcas, aspidistra e algumas espécies de samambaias</p>
+                <p><strong>Luz indireta média:</strong> Fetos, aglaonemas e plantas de baixa luminosidade</p>
+                <p><strong>Sombra parcial:</strong> Zamioculcas, aspidistra e algumas espécies de fetos</p>
                 
                 <h4>3. Sinais de excesso de luz</h4>
                 <ul>
                     <li>Folhas queimadas ou com manchas claras</li>
                     <li>Folhas desbotadas ou amareladas</li>
-                    <li>Ressecamento do solo muito rápido</li>
+                    <li>Secagem do solo muito rápida</li>
                 </ul>
                 
                 <h4>4. Sinais de falta de luz</h4>
@@ -334,7 +334,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 </ul>
                 
                 <h4>5. Dicas para iluminação adequada</h4>
-                <p>Rotacione periodicamente suas plantas para garantir crescimento uniforme.</p>
+                <p>Rode periodicamente as suas plantas para garantir crescimento uniforme.</p>
                 <p>Use cortinas leves para filtrar luz solar intensa em janelas voltadas para o sul.</p>
                 <p>Considere luzes artificiais específicas para plantas em ambientes com pouca luz natural.</p>
             `
@@ -343,26 +343,26 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Solo e Nutrientes',
             content: `
                 <h3>Solo e Nutrição para Plantas Saudáveis</h3>
-                <p>O solo fornece suporte, água e nutrientes essenciais para suas plantas. Entenda como otimizá-lo:</p>
+                <p>O solo fornece suporte, água e nutrientes essenciais para as suas plantas. Entenda como otimizá-lo:</p>
                 
                 <h4>1. Componentes de um bom substrato</h4>
                 <ul>
-                    <li><strong>Terra vegetal:</strong> Base para maioria dos substratos</li>
-                    <li><strong>Perlita/Vermiculita:</strong> Melhora a aeração e drenagem</li>
+                    <li><strong>Terra vegetal:</strong> Base para a maioria dos substratos</li>
+                    <li><strong>Perlite/Vermiculite:</strong> Melhora a aeração e drenagem</li>
                     <li><strong>Areia:</strong> Aumenta a drenagem, ideal para suculentas</li>
                     <li><strong>Húmus/Composto:</strong> Adiciona nutrientes e melhora estrutura</li>
-                    <li><strong>Fibra de coco:</strong> Retém umidade e é sustentável</li>
+                    <li><strong>Fibra de coco:</strong> Retém humidade e é sustentável</li>
                 </ul>
                 
                 <h4>2. Misturas específicas por tipo de planta</h4>
-                <p><strong>Plantas tropicais:</strong> 60% terra vegetal, 20% húmus, 20% perlita</p>
-                <p><strong>Suculentas e cactos:</strong> 40% terra vegetal, 40% areia, 20% perlita</p>
-                <p><strong>Samambaias:</strong> 50% terra vegetal, 30% húmus, 20% fibra de coco</p>
-                <p><strong>Orquídeas:</strong> 70% casca de pinus, 20% carvão, 10% esfagno</p>
+                <p><strong>Plantas tropicais:</strong> 60% terra vegetal, 20% húmus, 20% perlite</p>
+                <p><strong>Suculentas e cactos:</strong> 40% terra vegetal, 40% areia, 20% perlite</p>
+                <p><strong>Fetos:</strong> 50% terra vegetal, 30% húmus, 20% fibra de coco</p>
+                <p><strong>Orquídeas:</strong> 70% casca de pinheiro, 20% carvão, 10% esfagno</p>
                 
                 <h4>3. Nutrientes essenciais</h4>
                 <ul>
-                    <li><strong>Nitrogênio (N):</strong> Crescimento de folhagem e cor verde</li>
+                    <li><strong>Azoto (N):</strong> Crescimento de folhagem e cor verde</li>
                     <li><strong>Fósforo (P):</strong> Desenvolvimento de raízes e flores</li>
                     <li><strong>Potássio (K):</strong> Saúde geral e resistência a doenças</li>
                 </ul>
@@ -370,11 +370,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 <h4>4. Adubação</h4>
                 <p>Fertilize plantas em crescimento a cada 2-4 semanas na primavera e verão.</p>
                 <p>Reduza ou suspenda a adubação no outono e inverno, quando o crescimento desacelera.</p>
-                <p>Sempre siga as instruções do fabricante do fertilizante para evitar excesso.</p>
+                <p>Siga sempre as instruções do fabricante do fertilizante para evitar excesso.</p>
                 
                 <h4>5. pH do solo</h4>
                 <p>A maioria das plantas prefere pH entre 6.0 e 7.0 (levemente ácido a neutro).</p>
-                <p>Algumas plantas como azaleias e hortênsias preferem solo mais ácido (pH 5.0-6.0).</p>
+                <p>Algumas plantas como azáleas e hortênsias preferem solo mais ácido (pH 5.0-6.0).</p>
                 
                 <h4>6. Quando trocar o solo</h4>
                 <p>Geralmente, recomenda-se trocar o substrato anualmente ou quando:</p>
@@ -382,7 +382,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <li>O solo não retém mais água adequadamente</li>
                     <li>Há compactação excessiva</li>
                     <li>A planta está com crescimento estagnado</li>
-                    <li>No momento da replantagem</li>
+                    <li>No momento do transplante</li>
                 </ul>
             `
         }
@@ -466,7 +466,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             if (name && email && message) {
                 // In a real project, you would send this data to a server
-                alert('Obrigado por entrar em contato! Responderemos em breve.');
+                alert('Obrigado por entrar em contacto! Responderemos em breve.');
                 this.reset();
             } else {
                 alert('Por favor, preencha todos os campos obrigatórios.');
@@ -482,10 +482,10 @@ document.addEventListener('DOMContentLoaded', function() {
             
             if (email) {
                 // In a real project, you would send this data to a server
-                alert('Obrigado por se inscrever em nossa newsletter!');
+                alert('Obrigado por subscrever a nossa newsletter!');
                 this.reset();
             } else {
-                alert('Por favor, informe seu email.');
+                alert('Por favor, introduza o seu email.');
             }
         });
     }

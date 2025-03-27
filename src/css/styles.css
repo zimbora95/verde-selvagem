@@ -360,6 +360,22 @@ nav {
     box-shadow: var(--shadow-large);
 }
 
+.hero-image .gardener-img {
+    position: absolute;
+    border-radius: var(--border-radius-medium);
+    box-shadow: var(--shadow-large);
+    width: 40%;
+    height: auto;
+    right: -15%;
+    bottom: 10%;
+    z-index: 1;
+    transition: transform var(--transition-medium);
+}
+
+.hero-image .gardener-img:hover {
+    transform: scale(1.05);
+}
+
 .floating-leaves img {
     position: absolute;
     opacity: 0.8;
@@ -405,12 +421,30 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
-    align-items: center;
+    align-items: stretch;
+    min-height: 600px;
+}
+
+.about-image {
+    height: 100%;
+    display: flex;
+    align-items: stretch;
 }
 
 .about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: var(--border-radius-large);
     box-shadow: var(--shadow-medium);
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 1rem 0;
 }
 
 .about-text h3 {
@@ -794,6 +828,30 @@ nav {
     color: var(--color-primary);
 }
 
+.modal-body {
+    padding: 2rem;
+}
+
+.modal-body ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.modal-body li {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.modal-body h3 {
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+}
+
+.modal-body p {
+    margin-bottom: 1.5rem;
+}
+
 /* ===== Contact Section ===== */
 .contact-content {
     display: grid;
@@ -1086,6 +1144,12 @@ footer {
         order: 0;
     }
     
+    .hero-image .gardener-img {
+        width: 35%;
+        right: 0;
+        bottom: -5%;
+    }
+    
     .contact-content {
         grid-template-columns: 1fr;
     }
@@ -1148,6 +1212,12 @@ footer {
     .footer-newsletter form {
         flex-direction: column;
     }
+    
+    .hero-image .gardener-img {
+        width: 40%;
+        right: 5%;
+        bottom: -10%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1183,5 +1253,11 @@ footer {
     
     .assistant-bubble {
         width: 250px;
+    }
+    
+    .hero-image .gardener-img {
+        width: 45%;
+        right: 0;
+        bottom: -5%;
     }
 } 
